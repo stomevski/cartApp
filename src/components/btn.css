@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.header_text {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.btn {
+    transition: all 0.2s;
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+.btn_change {
+    transition: all 0.2s;
+}
+
+.btn_change:active {
+    transform: scale(1.1);
+}
+
+
+.editable {
+    animation: mrda 0.5s;
+
+}
+
+@keyframes mrda {
+    
+    0% {
+        transform: translateX(0px) ;
+    }
+    
+    33% {
+        transform: translateX(-20%) ;
+    }
+
+    66% {
+        transform: translateX(20%) ;
+    }
+
+    100% {
+        transform: translateX(0px) ;
+    }
+
+}
